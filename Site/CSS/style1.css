@@ -1,0 +1,341 @@
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: rgb(255, 255, 255);
+    background-color: #1e1e1e;
+
+
+
+      
+}
+/*
+h2 {
+    padding-bottom: 5px;
+}
+
+h3 { 
+    padding-bottom: 10px;
+} */
+
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box};
+
+
+section {
+    margin-bottom: ;
+}
+
+section, footer {
+    margin-bottom: 0px;  
+}
+
+header{
+    background-color: rgb(14, 13, 13);
+    color: rgb(245, 239, 239);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+ 
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+}
+
+h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: disc; /* Aplica pontos aos itens da lista */
+    float: right; /* Alinha a lista à direita */
+    
+}
+
+nav li {
+    float: left; /* Alinha os itens da lista horizontalmente */
+}
+
+nav li a {
+    padding: 10px;
+    color: rgb(250, 248, 248);
+    
+    
+}
+
+nav {
+    font-size: 12px;
+    letter-spacing: 1px;
+    height: 50px;
+    background-color: black;
+    overflow: hidden; /* Garante que a flutuação dos itens da lista não cause problemas de layout */
+}
+
+    .navbar {
+        position: fixed;
+        margin: 5px; /* Remove a margem */
+        padding: 0; /* Remove o preenchimento */
+        width: 100%;
+        z-index: 1000;
+        border-radius: 15px 15px 15px 15px;
+    
+       
+    }
+
+    .navbar .nav-link:hover {
+        color: #f5e509; /* Cor do texto ao passar o mouse */
+    }
+    
+
+
+
+table {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+table tr {
+    border-radius: 20px;
+
+}
+
+table td {
+    color: black;
+    padding: 3px;
+  
+}
+
+table tbody tr :nth-child(even) { background-color: rgb(252, 248, 248);
+
+
+}
+
+table tbody tr :nth-child(odd) { background-color: rgb(241, 234, 234);
+}
+/* :nth-child é uma pseudo classe, que selecionar um elemento em maio a outros semelhantes para lhe dar uma característica específica*/
+
+
+
+table thead th { 
+    background-color: rgb(20, 19, 19);
+    color: rgb(250, 247, 247);
+}
+
+/* o sinal de hashtag é usado para selecionar uma id*/
+
+table {
+    border: 2px solid yellow; /* Define a borda amarela */
+    border-collapse: collapse; /* Faz com que as bordas da tabela e das células se fundam */
+}
+
+th, td {
+    border: 1px solid yellow; /* Define a borda amarela para as células da tabela */
+    padding: 10px; /* Adiciona um pouco de espaçamento interno */
+}
+
+
+#Eventos .Imagens figure {
+    display: inline-block
+}
+
+#Eventos .Imagens {
+    text-align: center;
+}
+
+#Eventos .video {
+    text-align: center;
+}
+
+#contato {
+    padding-left: 20px
+}
+
+ /* Mudar a cor da fonte da navbar */
+ .navbar-nav .nav-link {
+    color: #f1f1ec; /* Cor personalizada */
+  }
+
+  /* Mudar a cor da fonte ao passar o mouse */
+  .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Outra cor ao hover */
+  }
+
+  /* Para links ativos */
+  .navbar-nav .nav-link.active {
+    color: #ffffff; /* Cor para o link ativo */
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #eff30b;
+  }
+
+
+    /* Mudar a cor da marca da navbar */
+    .navbar-brand {
+        color: #ffffff !important; /* Cor personalizada */
+        font-family: "Anton" ;
+        
+      }
+  
+      /* Mudar a cor ao passar o mouse */
+      .navbar-brand:hover {
+        color: #faea12 !important; /* Outra cor ao hover */
+      }
+
+      .navbar-brand img {
+        margin-bottom: 0;
+        display: block;
+
+      }
+
+ #carousel img {
+
+width: 400px;
+height: 600px;
+}
+
+.carousel-item img {
+    margin-right: 10px; /* Aqui você define a margem */
+   
+}
+
+.footer-bottom {
+    padding: 40px 0 30px;
+    border-top: 1px solid #666;
+    background: #1e1e1e;
+}
+.copyright-text p {
+    color: #ffd700;
+    margin-top: 9px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+.social-link li {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    
+
+}
+
+.social-link li a {
+    color: #ccc;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: ;
+    display: block;
+    font-size: 14px;
+    transition: .5s;
+}    
+
+.social-link {
+    margin: 0%;
+    padding: 0%;
+}    
+
+
+#contato h2 {
+    font-family: "Anton";
+}
+
+#tabeladeventos h2{
+    font-family: "Anton";
+}
+
+.navbar-toggler {
+    border-color: white; /* Altera a cor da borda do toggler */
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30' fill='white'%3E%3Cpath stroke='none' d='M5 7h20M5 15h20M5 23h20'/%3E%3C/svg%3E");
+}
+
+.card-body {
+    background-color: #ffd700;
+    text-align: center;
+    color: #0c0c08;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+#contato {
+    text-align: justify;
+
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: justify; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+  }
+
+  #contato h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contato form {
+    width: 100%;
+    max-width: 800px; /* Define uma largura máxima para o formulário */
+  }
+  
+  #contato form fieldset {
+    width: 100%;
+  }
+  
+  #contato .form-control,
+  #contato .form-select,
+  #contato textarea {
+    width: 100%; /* Faz os campos ocuparem toda a largura disponível */
+    max-width: 600px; /* Define uma largura máxima */
+  }
+  
+  section {
+    margin: 0; /* Remove todas as margens das sections */
+    padding: 0; /* Opcional: Remove os espaçamentos internos das sections */
+}
+
+/* Para garantir que outros elementos como <hr>, <br>, e card-group também não tenham margens */
+hr, br, .card-group {
+    margin: 0;
+    padding: 0;
+}
+
+.card-group .card-title {
+    font-weight: bold;
+}
+
+
+
+#Títulolíderes .text-center {
+    font-family: "Anton"; 
+
+
+}
+
+  
+  
+  
